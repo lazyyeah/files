@@ -17,6 +17,9 @@ C:\Users\xxx\AppData\Local\Programs\Python\Python37\python.exe sqlmap.py   -r 3_
 ### dirmap
 C:\Users\xxx\AppData\Local\Programs\Python\Python37\python.exe dirmap.py -i http://xxx.xxx.xxx.xxx:xxx/ -lcf
 
+### hydra
+hydra -l postgres -P pa -M iplist -o rdpresult -vV postgres
+
 ## 渗透测试流程
 https://github.com/lazyyeah/files/blob/master/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E6%B5%81%E7%A8%8B.md
 
@@ -25,3 +28,4 @@ https://github.com/lazyyeah/files/blob/master/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%
 
 ## 研发流程
 https://github.com/lazyyeah/files/blob/master/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/%E7%A0%94%E5%8F%91%E6%B5%81%E7%A8%8B.png
+
