@@ -2,8 +2,6 @@
 ## 常见工具的指令
 ### xray
 .\xray_windows_amd64.exe webscan --listen 127.0.0.1:7778 --html-output 202103231009.html
-
-
 xray_windows_amd64.exe webscan --url https://xxxn:39090/  --json-output 1.json
 xray_windows_amd64.exe webscan --url http://xxx/app/?id=tracing.5g.mec.app  --html-output 202011250931.html
 
@@ -28,6 +26,9 @@ https://github.com/lazyyeah/files/blob/master/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%
 
 ## 研发流程
 https://github.com/lazyyeah/files/blob/master/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/%E7%A0%94%E5%8F%91%E6%B5%81%E7%A8%8B.png
+
+## 狼组安全团队公开知识库
+https://wiki.wgpsec.org/knowledge/web/infoleak.html
 
 ## github常用工具
 漏洞及渗透练习平台： WebGoat漏洞练习平台：
